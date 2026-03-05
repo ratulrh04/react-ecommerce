@@ -1,3 +1,4 @@
+import image2 from "../assets/refargotohp-mzZp_9QpYLc-unsplash.jpg"
 
 import Hero from '../components/Hero';
 import Service from './Service';
@@ -6,7 +7,7 @@ import Service from './Service';
 
 const data = {
      name : "This web project made by Ratul Raha",
-    image : "../../public/images/refargotohp-mzZp_9QpYLc-unsplash.jpg" 
+    image : image2
 }
 
 
