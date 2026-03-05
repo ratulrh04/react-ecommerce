@@ -1,0 +1,30 @@
+// google font link import here:
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital@0;1&display=swap');
+// all scss file including here:
+@import "./hero-sec";
+@import "./service";
+@import "./footer.scss";
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+nav{
+    background-color: #cee3f6;
+    .navbar-brand{
+        color: #fd0000;
+        img{
+            width: 5rem;
+            height: 3rem;
+            border-radius: 10%;
+            object-fit: cover;
+            object-position: center;
+        }   
+    }
+    .navbar-nav{
+        .nav-item{
+           padding: 0px 10px;
+           font-weight: 600;
+        }
+    }
+}
+
